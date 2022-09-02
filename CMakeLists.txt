@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.23)
-project(simple_tcp_server_client)
+project(multi_client_tcp_server_client)
 
 set(CMAKE_CXX_STANDARD 23)
 
