@@ -3,5 +3,6 @@ project(multi_client_tcp_server_client)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(client src/client.cpp)
-add_executable(server src/server.cpp)
+add_subdirectory(lib)
+add_subdirectory(client)
+add_subdirectory(server)

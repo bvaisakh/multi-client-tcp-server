@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<tcp-server>
+    <server-port>50544</server-port>
+    <max-buffer>128</max-buffer>
+    <msg-length>18</msg-length>
+</tcp-server>
